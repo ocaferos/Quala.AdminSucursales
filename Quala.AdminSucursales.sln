@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Transversal.Common", "Quala.AdminSucursales.Transversal.Common\Quala.AdminSucursales.Transversal.Common.csproj", "{5B201544-012B-43EA-85FF-6E81008A48B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{A4C00170-2574-4C94-9634-2D10FD7781F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{BA655145-B58B-4A06-83AF-4595370A3714}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{BE6E252E-FA76-4AFF-839F-6FD31F56DC0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{4DB29A37-5BC4-49C9-A894-2FA835370FE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{F11DDB5F-D6FA-46AD-9401-7FED951EE50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Infraestructure.Data", "Quala.AdminSucursales.Infraestructura.Data\Quala.AdminSucursales.Infraestructure.Data.csproj", "{C17FA90A-8264-4A3D-A925-656BA3AFD546}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Infraestructure.Interface", "Quala.AdminSucursales.Infraestructure.Interface\Quala.AdminSucursales.Infraestructure.Interface.csproj", "{7AD8D2EB-456A-4EF8-83DF-A3A206C0D1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Domain.Entity", "Quala.AdminSucursales.Domain.Entity\Quala.AdminSucursales.Domain.Entity.csproj", "{17D65F03-9C4C-4FAD-A915-E659DF95E2B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Infraestructure.Repository", "Quala.AdminSucursales.Infraestructure.Repository\Quala.AdminSucursales.Infraestructure.Repository.csproj", "{BAF3AB65-42BC-4F32-93B2-9FA8536AA7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Domain.Interface", "Quala.AdminSucursales.Domain.Interface\Quala.AdminSucursales.Domain.Interface.csproj", "{39795F9C-25BB-46BE-91AB-5A843AC6CE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Domain.Core", "Quala.AdminSucursales.Domain.Core\Quala.AdminSucursales.Domain.Core.csproj", "{2DB69ABD-6C90-4F83-ACD5-FFDBF802DF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Application.DTO", "Quala.AdminSucursales.Application.DTO\Quala.AdminSucursales.Application.DTO.csproj", "{313FAEA0-70FE-447C-B354-1138E52E353E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Transversal.Mapper", "Quala.AdminSucursales.Transversal.Mapper\Quala.AdminSucursales.Transversal.Mapper.csproj", "{82F5A5D9-A21A-498B-AE47-E49A9C5BE739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Application.Interface", "Quala.AdminSucursales.Application.Interface\Quala.AdminSucursales.Application.Interface.csproj", "{B91056E1-0E30-499E-91DE-203A22CEA597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Application.Main", "Quala.AdminSucursales.Application.Main\Quala.AdminSucursales.Application.Main.csproj", "{0663E027-526C-4FBB-9D2D-C757AC5D89E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quala.AdminSucursales.Service.WebApi", "Quala.AdminSucursales.Service.WebApi\Quala.AdminSucursales.Service.WebApi.csproj", "{AFE20805-85C2-461E-BF2A-D385CD2A27ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B201544-012B-43EA-85FF-6E81008A48B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B201544-012B-43EA-85FF-6E81008A48B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B201544-012B-43EA-85FF-6E81008A48B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B201544-012B-43EA-85FF-6E81008A48B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17FA90A-8264-4A3D-A925-656BA3AFD546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17FA90A-8264-4A3D-A925-656BA3AFD546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17FA90A-8264-4A3D-A925-656BA3AFD546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17FA90A-8264-4A3D-A925-656BA3AFD546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD8D2EB-456A-4EF8-83DF-A3A206C0D1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD8D2EB-456A-4EF8-83DF-A3A206C0D1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD8D2EB-456A-4EF8-83DF-A3A206C0D1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD8D2EB-456A-4EF8-83DF-A3A206C0D1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D65F03-9C4C-4FAD-A915-E659DF95E2B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D65F03-9C4C-4FAD-A915-E659DF95E2B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D65F03-9C4C-4FAD-A915-E659DF95E2B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D65F03-9C4C-4FAD-A915-E659DF95E2B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF3AB65-42BC-4F32-93B2-9FA8536AA7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF3AB65-42BC-4F32-93B2-9FA8536AA7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF3AB65-42BC-4F32-93B2-9FA8536AA7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF3AB65-42BC-4F32-93B2-9FA8536AA7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39795F9C-25BB-46BE-91AB-5A843AC6CE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39795F9C-25BB-46BE-91AB-5A843AC6CE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39795F9C-25BB-46BE-91AB-5A843AC6CE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39795F9C-25BB-46BE-91AB-5A843AC6CE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB69ABD-6C90-4F83-ACD5-FFDBF802DF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB69ABD-6C90-4F83-ACD5-FFDBF802DF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB69ABD-6C90-4F83-ACD5-FFDBF802DF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB69ABD-6C90-4F83-ACD5-FFDBF802DF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313FAEA0-70FE-447C-B354-1138E52E353E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313FAEA0-70FE-447C-B354-1138E52E353E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313FAEA0-70FE-447C-B354-1138E52E353E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313FAEA0-70FE-447C-B354-1138E52E353E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F5A5D9-A21A-498B-AE47-E49A9C5BE739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F5A5D9-A21A-498B-AE47-E49A9C5BE739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F5A5D9-A21A-498B-AE47-E49A9C5BE739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F5A5D9-A21A-498B-AE47-E49A9C5BE739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91056E1-0E30-499E-91DE-203A22CEA597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91056E1-0E30-499E-91DE-203A22CEA597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91056E1-0E30-499E-91DE-203A22CEA597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91056E1-0E30-499E-91DE-203A22CEA597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0663E027-526C-4FBB-9D2D-C757AC5D89E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0663E027-526C-4FBB-9D2D-C757AC5D89E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0663E027-526C-4FBB-9D2D-C757AC5D89E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0663E027-526C-4FBB-9D2D-C757AC5D89E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE20805-85C2-461E-BF2A-D385CD2A27ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE20805-85C2-461E-BF2A-D385CD2A27ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE20805-85C2-461E-BF2A-D385CD2A27ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE20805-85C2-461E-BF2A-D385CD2A27ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B201544-012B-43EA-85FF-6E81008A48B0} = {F11DDB5F-D6FA-46AD-9401-7FED951EE50E}
+		{C17FA90A-8264-4A3D-A925-656BA3AFD546} = {BE6E252E-FA76-4AFF-839F-6FD31F56DC0B}
+		{7AD8D2EB-456A-4EF8-83DF-A3A206C0D1FB} = {BE6E252E-FA76-4AFF-839F-6FD31F56DC0B}
+		{17D65F03-9C4C-4FAD-A915-E659DF95E2B4} = {BA655145-B58B-4A06-83AF-4595370A3714}
+		{BAF3AB65-42BC-4F32-93B2-9FA8536AA7EC} = {BE6E252E-FA76-4AFF-839F-6FD31F56DC0B}
+		{39795F9C-25BB-46BE-91AB-5A843AC6CE56} = {BA655145-B58B-4A06-83AF-4595370A3714}
+		{2DB69ABD-6C90-4F83-ACD5-FFDBF802DF4F} = {BA655145-B58B-4A06-83AF-4595370A3714}
+		{313FAEA0-70FE-447C-B354-1138E52E353E} = {A4C00170-2574-4C94-9634-2D10FD7781F2}
+		{82F5A5D9-A21A-498B-AE47-E49A9C5BE739} = {F11DDB5F-D6FA-46AD-9401-7FED951EE50E}
+		{B91056E1-0E30-499E-91DE-203A22CEA597} = {A4C00170-2574-4C94-9634-2D10FD7781F2}
+		{0663E027-526C-4FBB-9D2D-C757AC5D89E5} = {A4C00170-2574-4C94-9634-2D10FD7781F2}
+		{AFE20805-85C2-461E-BF2A-D385CD2A27ED} = {4DB29A37-5BC4-49C9-A894-2FA835370FE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61ECA893-DEDD-48CA-AFBC-4E78DA9233F7}
+	EndGlobalSection
+EndGlobal

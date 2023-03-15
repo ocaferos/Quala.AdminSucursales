@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\User\source\repos\Quala.AdminSucursales\Quala.AdminSucursales.Service.WebApi\Quala.AdminSucursales.Service.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quala.AdminSucursales.Application.DTO\Quala.AdminSucursales.Application.DTO.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Application.Interface\Quala.AdminSucursales.Application.Interface.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Application.Main\Quala.AdminSucursales.Application.Main.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Domain.Core\Quala.AdminSucursales.Domain.Core.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Domain.Entity\Quala.AdminSucursales.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Domain.Interface\Quala.AdminSucursales.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Infraestructura.Data\Quala.AdminSucursales.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Infraestructure.Interface\Quala.AdminSucursales.Infraestructure.Interface.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Infraestructure.Repository\Quala.AdminSucursales.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Transversal.Common\Quala.AdminSucursales.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Transversal.Mapper\Quala.AdminSucursales.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+
+</Project>

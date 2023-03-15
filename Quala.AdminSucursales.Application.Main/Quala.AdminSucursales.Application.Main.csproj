@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quala.AdminSucursales.Application.DTO\Quala.AdminSucursales.Application.DTO.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Application.Interface\Quala.AdminSucursales.Application.Interface.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Domain.Entity\Quala.AdminSucursales.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Domain.Interface\Quala.AdminSucursales.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Transversal.Common\Quala.AdminSucursales.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

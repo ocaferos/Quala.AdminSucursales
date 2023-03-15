@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quala.AdminSucursales.Application.DTO\Quala.AdminSucursales.Application.DTO.csproj" />
+    <ProjectReference Include="..\Quala.AdminSucursales.Transversal.Common\Quala.AdminSucursales.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
