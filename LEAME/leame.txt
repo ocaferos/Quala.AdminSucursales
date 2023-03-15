@@ -1,0 +1,9 @@
+Pasos para correr la aplicacion QualaAdminSucursales
+
+1. en la base de datos indicada ejecutar los dos scripts que se encuentran en la carpeta 
+   Quala.AdminSucursales\LEAME en orden de numero
+     * 1.CREATE_TABLES
+     * 2.PROCEDURES
+
+luego ejecutar los dos proyectos tanto el Quala.AdminSucursales (BackEnd) y  el Quala.AdminSucursales.Client (FrontEnd)
+
